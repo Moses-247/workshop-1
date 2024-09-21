@@ -21,6 +21,6 @@ document.getElementById('submit').addEventListener('click', function() {
         location.href="level.html";
     }
     else if(score < 3){
-        alert(`Womp womp, try again next time.🥲🥲`)
+        alert(`Womp womp, better luck next time.🥲🥲`)
     }
 });

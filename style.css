@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
+    margin: 100px 0;
 }
 
 .quiz-container {
@@ -13,12 +13,15 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 90%;
+    max-width:600px;
     text-align: center;
 }
 
 h1 {
     margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 button {
@@ -28,8 +31,25 @@ button {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    margin: 20px;
+    width: 20rem;    
 }
 
 button:hover {
     background: #0056b3;
+}
+.question > p{
+    display: flex;
+    align-items: left;
+}
+.question > label{
+    display: flex;
+    align-items: left;
+    padding: 10px;
+    margin: 10px;
+}
+.home{
+    display: block;
+    font-size: 10px;
+    text-align: end;    
 }
