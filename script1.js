@@ -2,9 +2,9 @@ document.getElementById('submit').addEventListener('click', function() {
     const quizForm = document.getElementById('quiz-form');
     const formData = new FormData(quizForm);
     const answers = {
-        question1: 'c',
+        question1: 'a',
         question2: 'b',
-        question3: 'b'
+        question3: 'c'
     };
     let score = 0;
 
@@ -17,10 +17,6 @@ document.getElementById('submit').addEventListener('click', function() {
     alert(`You got ${score} out of ${Object.keys(answers).length} correct!`);
 
     if (score >= 3){
-        alert(`Would you like to proceed to level 2 😎😎`);
-        location.href="level.html";
-    }
-    else if(score < 3){
-        alert(`Womp womp, try again next time.🥲🥲`)
+        alert(`Congratulations you have reached the End 🥳🥳`);
     }
 });
