@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz</h1>
+        <form id="quiz-form">
+            <div class="question">
+                <p>What is the capital of France?</p>
+                <label>
+                    <input type="radio" name="question1" value="a"> Berlin
+                </label>
+                <label>
+                    <input type="radio" name="question1" value="b"> Madrid
+                </label>
+                <label>
+                    <input type="radio" name="question1" value="c"> Paris
+                </label>
+            </div>
+            <div class="question">
+                <p>Who is the CEO of Tesla?</p>
+                <label>
+                    <input type="radio" name="question2" value="a"> Jeff Bezos
+                </label>
+                <label>
+                    <input type="radio" name="question2" value="b"> Elon Musk
+                </label>
+                <label>
+                    <input type="radio" name="question2" value="c"> Bill Gates
+                </label>
+            </div>
+            <div class="question">
+                <p>What is the largest planet in our solar system?</p>
+                <label>
+                    <input type="radio" name="question3" value="a"> Earth
+                </label>
+                <label>
+                    <input type="radio" name="question3" value="b"> Jupiter
+                </label>
+                <label>
+                    <input type="radio" name="question3" value="c"> Saturn
+                </label>
+            </div>
+            <button type="button" id="submit">Submit Quiz</button>
+        </form>
+        <div id="results"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
